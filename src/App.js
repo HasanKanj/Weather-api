@@ -1,11 +1,16 @@
 import React from "react";
-import storm from "/home/hasan/weather-api/src/img/weather-icons/storm.svg" ;
 import './App.css';
+import Header from "./Components/Header";
+import MainWeather from "./Components/Middle";
+import Lower from "./Components/Lower";
+
 
 function App() {
   return (
-    <div className="App">
-      <App/>
+    <div className="app">
+      <Header/>
+      <MainWeather/>
+      <Lower/>
     </div>
   );
 }
