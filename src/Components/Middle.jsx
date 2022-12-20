@@ -11,7 +11,7 @@ export default function MainWeather() {
         <div className="temp">
           <b>Temperature &nbsp; </b> 10º to 11ºC
           </div>
-          <div className="humidity">
+           <div className="humidity">
             <b>Humidity &nbsp;</b> 78%&nbsp;&nbsp;
             <b>Presssure &nbsp;</b>  1008.48
         </div>

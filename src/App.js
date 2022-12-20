@@ -10,7 +10,7 @@ function App() {
     <div className="app">
       <Header/>
       <MainWeather/>
-      <Lower/>
+       <Lower/>
     </div>
   );
 }

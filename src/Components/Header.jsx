@@ -8,7 +8,7 @@ type="text"
 id="message"
 
 />
-<button className='header_button'>Find Weather</button>
+ <button className='header_button'>Find Weather</button>
 </div>
 )
 }

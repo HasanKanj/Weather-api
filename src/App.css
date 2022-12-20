@@ -9,7 +9,7 @@ body {
 }
 
 .header_nav {
-  background-color: #759eda;
+   background-color: #759eda;
   display: flex;
   flex-wrap: wrap;
   padding: 1em;

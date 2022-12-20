@@ -13,7 +13,7 @@ class Lower extends Component {
                  <p>15:00</p>
                  <p>18:00</p>
                  <p>21:00</p>
-              </div>
+               </div>
               <div className='img'>
                  <img className="imgsize" src={mostlycloudy} alt="mostlycloudy" />
                  <img className="imgsize" src={mostlycloudy} alt="mostlycloudy" />
