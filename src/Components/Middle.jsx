@@ -5,15 +5,18 @@ export default function MainWeather() {
     return (
         <div className="middle">
         <img src={storm} alt="storm icon" />
+        <div className="Weather_Description">
+          {props.description}
+        </div>
         <div className="firstclass">
          <b>overcast clouds</b>
         </div>
         <div className="temp">
-          <b>Temperature &nbsp; </b> 10º to 11ºC
+        <b>Temperature</b> {Math.floor(props.minTemp- 273.15)}°C to {Math.floor(props.maxTemp- 273.15)}°C
           </div>
            <div className="humidity">
-            <b>Humidity &nbsp;</b> 78%&nbsp;&nbsp;
-            <b>Presssure &nbsp;</b>  1008.48
+           <b>Humidity</b> {props.humidity}% 78%&nbsp;&nbsp;
+            <b>Presssure &nbsp;</b>  {props.pressure}
         </div>
         </div>
     )

@@ -118,3 +118,15 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+::placeholder {
+  color: white;
+  font-size: 18px;
+}
+
+.Lower_list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+

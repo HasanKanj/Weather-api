@@ -3,7 +3,7 @@ import './App.css';
 import Header from "./Components/Header";
 import MainWeather from "./Components/Middle";
 import Lower from "./Components/Lower";
-
+import FakeWeather from "./data/FakeWeather.json";
 
 function App() {
   return (

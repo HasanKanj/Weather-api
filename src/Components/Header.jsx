@@ -4,6 +4,7 @@ const Header = () => {
 return (
 <div className='header_nav'>
 <input className='header_input'
+placeholder='Type in a City Name'
 type="text"
 id="message"
 
