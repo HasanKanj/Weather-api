@@ -1,7 +1,7 @@
 import React from 'react'
 import storm from "../img/weather-icons/mostlycloudy.svg";
 
-export default function MainWeather() {
+export default function MainWeather({props}) {
     return (
         <div className="middle">
         <img src={storm} alt="storm icon" />
