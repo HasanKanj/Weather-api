@@ -6,7 +6,7 @@ return (
 <input className='header_input'
 placeholder='Type in a City Name'
 type="text"
-id="message"
+ id="message"
 
 />
  <button className='header_button'>Find Weather</button>

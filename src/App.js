@@ -8,7 +8,7 @@ import React, { useState } from 'react';
 
 function App() {
  
-imagesChecker = id => {
+ imagesChecker = id => {
 
 
   if (id < 300) {
@@ -42,13 +42,8 @@ imagesChecker = id => {
   } else if (id > 801 && id <= 805) {
   
   return mostlycloudy;
-
   }
-  
   };
-  
-
-
   
   return (
     <div className="app">
