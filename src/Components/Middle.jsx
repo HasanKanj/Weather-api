@@ -2,7 +2,7 @@ import React from 'react'
 import storm from "../img/weather-icons/storm.svg";
 import '../App.css';
 
-function Middle({}) {
+function Middle({weather}) {
 
     return (
         <div className="middle">
@@ -11,7 +11,7 @@ function Middle({}) {
        
         </div>
         <div className="firstclass">
-          <b>overcast clouds</b>
+          <b>{console.log(weather)}</b>
         </div>
         <div className="temp">
         <p >Temperature 10º to 11ºC</p> 
